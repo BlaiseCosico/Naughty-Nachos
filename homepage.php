@@ -33,12 +33,34 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+
 	<!-- end: CSS -->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+  	
+  	  <style type="text/css">
+    	#parallax {
+    /* The image used */
+    background-image: url("img/place1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	
+	
+
+    </style>
+   
 
 </head>
 <body>
@@ -84,6 +106,10 @@
 			
 	</header>
 	<!--end: Header-->
+
+
+
+
 	<!-- start: 1st Page - Home -->
 	<div id="home">
 
@@ -176,7 +202,7 @@
 						<div class="flex-container">
 							<div class ="box">
 								<figure class="snip1273">
-								  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample72.jpg" alt="sample72"/>
+								  <img src="img/b1.jpg" alt="sample72"/>
 									  <figcaption>
 									    <h3>Fletch Skinner</h3>
 									    <p>I don't need to compromise my principles, because they don't have the slightest bearing on what happens to me anyway. </p>
@@ -186,7 +212,7 @@
 							</div>
 							<div class ="box">
 								<figure class="snip1273">
-								  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample21.jpg" alt="sample21"/>
+								  <img src="img/b1.jpg" alt="sample21"/>
 									  <figcaption>
 									    <h3>Indigo Violet</h3>
 									    <p>What's the point of wearing your favorite rocketship underpants if nobody ever asks to see 'em?</p>
@@ -196,7 +222,7 @@
 							</div>
 							<div class ="box">
 								<figure class="snip1273">
-								  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample86.jpg" alt="sample86"/>
+								  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample72.jpg" alt="sample86"/>
 									  <figcaption>
 									    <h3>Gunther Beard</h3>
 									    <p>Given that sooner or later we're all just going to die, what's the point of learning about integers?</p>
@@ -241,13 +267,63 @@
 		
 	</div>
 	<!-- end: 4th Page - Portfolio -->
-	
+
+	<div class="container-aboutus">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="containe-aboutus">
+				<div class="row">
+					 <div class="col-sm-8 truly">
+
+			    	<h1 style="font-family: roboto;"><span>ABOUT US</span></h1>
+
+			    	<h3>Welcome to Naugty Nachos, a modern restaurant with innovations on mexican cousine</h3>
+
+
+			    	<div class="flex">
+			    		<div class="fbox">
+			    		  	<p>
+						      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempore incididunt ut labore et  dolore magna aliqua.Ut enim ad minim, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						 	</p>
+			    		</div>
+
+			    		<div class="fbox">
+			    			<p>
+			    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempore incididunt ut labore et  dolore magna aliqua.Ut enim ad minim, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			    			</p>
+			    		</div>
+			    	</div>
+			    	  
+
+				      <a href="#" class="btn btn-outlined btn-primary">FIND MORE</a>
+
+			    </div>
+
+			    	<div class="col-sm-4 pics">
+
+				    	<div class = "z">
+				    		<div class="imgPlace" style="background-image: url('img/place2.jpg');">
+				    				
+					    	</div>
+			    		</div>
+
+			 		   </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+	<div id="parallax"></div>
+
+
 	<!-- start: 5th Page - About -->
 	<div id="about" class="color white">
 		
 		<!--start: Container -->
-		<div class="container">
-
+		<div class="container talaga">
 			<!--start: Wrapper -->
 			<div class="wrapper span12">
 
@@ -255,33 +331,51 @@
 			<div id="page-title">
 
 				<div id="page-title-inner">
-
-					<!--	<h2><span>About Us</span></h2> -->
-
 				</div>	
 
-			</div>
-			<!-- end: Page Title -->				
-		
+			</div>	
 			<!--start: Row -->
 	    	<div class="row-fluid">
 		
-				<div class="span12">
+				<div class="span6">
 					
 					<!-- start: About Us -->
-					<div class ="parallax">
-						asd
-					</div>
-					<div id="story">
-						<h1>ABOUT US</h1>
-						<p>
-							Naughty Nachos is located at Magiting st. corner Maginhawa Quezon City. You can easily spot us, just right next to ministop. See you here!
-						</p>
-					</div>	
-					<!-- end: About Us -->
+			<div class="container">
+			  <div class="row">
+			    <div class="col-sm-6" style="text-align:center">
 
-					<div id ="">
-					</div>
+			    	<h1><span>OUR MENU</span></h1>
+
+			    	  <br><p>
+				      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempore </p> <p> incididunt ut labore et  dolore magna aliqua.Ut enim ad minim, quis nostrud </p> <p>exercitation ullamco laboris nisi aliquip ex ea commodo consequat.
+				  	  </p>
+				      <br>
+
+				      <a href="#" class="btn btn-outlined btn-primary">VIEW MENU</a>
+
+			    </div>
+
+			    <div class="col-sm-6 pics">
+
+				    	<div class = "f">
+				    		<div class="imgPlace" style="background-image: url('img/L1.jpg');">
+				    				
+					    	</div>
+
+					    	<div class="imgPlace" style="background-image: url('img/L2.jpg');">
+					    	
+					    	</div> 
+			    		</div>
+
+			 		   </div>
+				  </div>
+				</div>
+	
+					<!-- 
+					Naughty Nachos is located at Magiting st. corner Maginhawa Quezon City. You can easily spot us, just right next to ministop. See you here!
+					
+					end: About Us -->
+
 				</div>
 				
 			</div>
@@ -291,6 +385,10 @@
 		
 		</div>
 		<!--end: Container -->
+		<!-- end: Page Title -->	
+
+
+	<div id="parallax2" style="background-image: url('img/place4.jpg');"></div>
 		
 	</div>
 	<!-- end: 5th Page - About -->
@@ -338,22 +436,27 @@
 						    </td> <!-- end of 1st COLUMNr1-->
 
 						    <td> <!-- 2nd COLUMNr1-->
-						    	Date
-								<select id = "month" onChange = "fDay()">
-									<option placeholder="Date" selected disabled> Date </option>
-									<option value = "January"> January </option>
-									<option value = "February"> February </option>
-									<option value = "March"> March </option>
-									<option value = "April"> April </option>
-									<option value = "May"> May </option>
-									<option value = "June"> June </option>
-									<option value = "July"> July </option>
-									<option value = "August"> August </option>
-									<option value = "September"> September </option>
-									<option value = "October"> October </option>
-									<option value = "November"> November </option>
-									<option value = "December"> December </option>
-								</select>
+								<p>Date: <input type="text" id="datepicker"></p>
+
+								<script>
+    								$(function() {
+      							    $( "#datepicker" ).datepicker();
+    								});
+
+
+								    $(document).ready(function() {
+								    $("#datepicker").datepicker();
+								    $("button").click(function() {
+								      
+								        var date = $("#datepicker").val();
+								      
+								        confirm("Would you like to go to " + date);
+								        
+								    });
+								});
+
+								    </script>
+
 						    </td> <!-- end of 2nd COLUMNr1-->
 
 						    <td> <!-- 3rd COLUMNr1 -->
@@ -421,71 +524,14 @@
 
 	<!-- End: 6th Page - Reservation -->
 
-<!-- ////////////////////////////
 
-	<div class="menu_txt">
-
-		<div class = "flex-container">
-		    <div class = "flexy">
-		        <figure class="snip1418"><img src="img14.jpg"/></figure>
-		    </div>
-
-		    <div class = "flexy">
-		        <figure class="snip1418"><img src="img15.jpg"/></figure>
-		    </div>
-
-		    <div class = "flexy">
-		        <figure class="snip1418"><img src="img16.jpg"/></figure>
-		    </div>
-
-		    <div class = "flexy">
-		        <figure class="snip1418"><img src="img18.jpg"/></figure>  
-		    </div>
-		</div>
-	</div>
 	
-//////////////////////// -->
-
-	<div class = "new-contact">
-		<h2><span>Contact</span></h2>
-		<div class ="nilalaman">
-
-					<div class = "contact-hours">
-							<h2><span>HOURS</span></h2>
-							<h4>Monday</h4>
-							<h4>Tuesday</h4>
-							<h4>Wednesday</h4>
-							<h4>Thurday</h4>
-							<h4>Friday</h4>
-							<h4>Saturday</h4>
-							<h4>Sunday</h4>
-s
-
-						</div>
-					<div class = "contact-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.1646643695194!2d121.05706081428035!3d14.646592479875872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b773776f4fa9%3A0x2e979d5efe70dae!2sNaughty+Nachos!5e0!3m2!1sen!2sph!4v1506188056700" width=100% height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-						</div>
-					<div class = "contact-info">
-							<h2><span>CONTACT</span></h2>
-							<h4> Phone </h4>
-							<h2> 09167973104 </h2>
-
-							<h4> Email </h4>
-							<h2> Phinix101@Gmail.com </h2>
-
-							
-						</div>
-		</div>
-	</div>
-
-
+	<div id="parallax" style="background-image: url(img/place3.jpg);"></div>
 
 	<!-- start: 7th Page - Contact -->
 	<!-- /////////////////////////////////////////////// -->
 	<div id="mapBg"></div>
-	<div id="contact" class="color blue transparent">
-		<h2><span>Contact</span></h2>
+	<div id="contact" class="color black">
 
 		<!--start: Container -->
 		<div class="container">
@@ -530,38 +576,12 @@ s
 			<!-- start: Row -->
 			<div class="row-fluid">		
 			
-				<!-- start: Map -->
-				<div class="span6">
-					
-					<!-- start: Contact Form -->
-					<div id="contact-form">
-
-						<form method="post" action="">
-							
-							<fieldset>
-								
-								<input tabindex="4" id="name" name="name" type="text" value="" class="span12" placeholder="Name: Your Name Here" >
-								<input tabindex="2" id="email" name="email" type="text" value="" class="span12" placeholder="Email: email@gmail.com">
-								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Message: Your message here"></textarea>
-
-								<div class="actions">
-									<button tabindex="2" type="submit" class="btn btn-succes btn-large">Send message</button>
-								</div>
-								
-							</fieldset>
-
-						</form>
-
-					</div>
-					<!-- end: Contact Form -->
-					
-
-				</div>
-				<!-- end: Map -->
 				
-				<div class="span6">
+				
+				
+				<div class="span12">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.1646643695194!2d121.05706081428035!3d14.646592479875872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b773776f4fa9%3A0x2e979d5efe70dae!2sNaughty+Nachos!5e0!3m2!1sen!2sph!4v1506188056700" width=100% height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+			<!-- end: Map -->
 				
 				</div>	
 
@@ -614,6 +634,8 @@ s
 <script type="text/javascript" src="js/jquery.flot.stack.js"></script>
 <script type="text/javascript" src="js/jquery.flot.resize.min.js"></script>
 
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script defer="defer" src="js/custom.js"></script>
 <script type="text/javascript">	

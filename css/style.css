@@ -17,6 +17,10 @@
 @import url("fancybox.css");				/* Fancybox */
 @import url("font-awesome.css");			/* Font Awesome */
 @import url("font-awesome-ie7.css");		/* Font Awesome */
+@font-face {
+    font-family: montserrat;
+    src: url(font/Montserrat-Bold.otf);
+}
 
 /* Colors Section
 =================================================================== */
@@ -84,7 +88,6 @@
 .color.blue.transparent h2 span{
 	background: rgba(91,194,206,0);
 }
-
 
 
 .color.black {
@@ -499,6 +502,7 @@ header {
 }
 
 
+
 /* Page Title Featured Items
 =================================================================== */
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
@@ -523,8 +527,10 @@ header {
 }
 .snip1273 img {
   position: relative;
-  max-width: 100%;
+  width: 100%;
   vertical-align: top;
+
+
 }
 .snip1273 figcaption {
   position: absolute;
@@ -1053,39 +1059,146 @@ html[xmlns] .slides {display: block;}
 
 /*  About us -start
 =================================================================== */
-#about{
-	background-color: black;
-	@media (min-width: 1200px);
-	height: 500px;
+.container-aboutus{
+	max-width: 100%;
+	height: 550px;
+	background-color: #f6f7f8;
+}
+
+.truly{
+	margin-top: 70px;
+}
+
+.truly h3{
+	padding-left: 25px;	
+	margin-top: 10px;	
+}
+
+.truly h1{
+	font-size: 50px;
+	padding-left: 25px;		
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.fbox{
+	margin-top: 25px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.pics{
+	
+	height: 550px;
+}
+
+.z .imgPlace{
+	height: 550px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.truly a{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+/*  Aboutus -end
+=================================================================== */
+
+/*  Our Menu -start
+=================================================================== */
+
+.btn-outlined {
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.btn-outlined.btn-primary {
+    background: none;
+    border: 4px solid black;
+    color: #fff;
+    font-style: black;
+}
+.btn-outlined.btn-primary:hover,
+.btn-outlined.btn-primary:active {
+   
+    background: #fff;
+    border-color: #c48e41:
+}
+
+@font-face {
+    font-family: bigjohn;
+    src: url("font/BIG+JOHN.otf") format("opentype");
+}
+
+.talaga{
+	height: 550px;
+	width: 100%;
+	
+}
+.omg h1{
+	padding-top: 20px;
+	color: black;
+	margin: auto;
+	text-align: center;
+	font-family: "montserrat";
+	font-size: 50px;
+}
+
+.omg p{
+	text-align: center;
+	font-family: "Montserrat";
+	padding: 2px;
+	margin: 10px;
+}
+
+.omg a{
+	margin: auto;
+	text-align: center;
+}
+
+.pics .f{
+	display: flex;
+	flex-direction: column;
 
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("1.jpg");
+.f .imgPlace{
+	height: 200px;
+	width: 100%;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-size: 90% 100%;
+	margin-left: 20px;
+	
+}
+/*  Our Menu -end
+=================================================================== */
 
-    /* Set a specific height */
-    min-height: 500px; 
-    width: 100%;
+
+#parallax2{
+	min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	}
+
 }
-
-
-
-/*  Aboutus -end
-=================================================================== */
-
-
 /* Reservation Page - start
 ====================================================================== */
 #Reservation-container{
 	width: 100%;
 	height: 1500px;
+
 }
 
 #Reservation-container h1{
@@ -2406,7 +2519,7 @@ footer #social {
 
 .btn-primary {
 	background: #fbfbf9;
-	color: #2FABE9 !important;
+	color: solid black !important;
 }
 
 .btn-primary span{
